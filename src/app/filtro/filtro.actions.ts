@@ -7,4 +7,3 @@ export const setFiltro = createAction(
     '[Filtro] Set Filtro',
     props<{ filtro: filtrosValidos }>()
 );
- 
