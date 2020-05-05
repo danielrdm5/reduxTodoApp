@@ -3,11 +3,11 @@ import { crear, toggle, editar, borrar, toggleAll, limpiarCompletados } from './
 import { Todo } from './models/todo.model';
 
 export const estadoInicial: Todo[] = [
-  new Todo('Salvar al mundo'),
-  new Todo('Vencer a Thanos'),
-  new Todo('Vencer a Thor'),
-  new Todo('Ir de compras'),
-  new Todo('Ya sabes')
+  new Todo('Save the world'),
+  new Todo('Defeat Thanos'),
+  new Todo('Contact Nick Fury'),
+  new Todo('Go Shopping with Tony Stark'),
+  new Todo('Date Blackwidow')
 ];
 
 const _todoReducer = createReducer(estadoInicial,

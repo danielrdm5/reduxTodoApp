@@ -11,10 +11,10 @@ export class FiltroPipe implements PipeTransform {
 
     switch (filtro) {
 
-      case 'completados':
+      case 'completed':
         return todos.filter( todo => todo.completado );
 
-      case 'pendientes':
+      case 'pendings':
         return todos.filter( todo => !todo.completado );
 
       default:
